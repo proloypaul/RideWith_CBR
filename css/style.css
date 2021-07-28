@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+}
+.clients img{
+    width: 150px;
+}
+#clients_3 img{
+    width: 150px;
+    height: 150px;
+    border: 1px;
+    border-radius: 45%;
+}

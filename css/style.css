@@ -26,6 +26,9 @@ body{
     border:0;
     border-radius: 5px;
 }
+.part_1_section img{
+    width: 400px;
+}
 .part_2_Fetured h1, .part_3_clients h1, .part_4_question h1{
     color: #000000;
     font-weight: 600;

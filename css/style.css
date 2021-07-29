@@ -36,7 +36,13 @@ body{
     font-size: 12px;
     font-weight: 600;
 }
-.part_3_clients h1 span, .part_4_question h1 span{
+.part_2_Fetured #feature_img_one{
+    filter: grayscale(100%);
+}
+.part_2_Fetured #feature_img_three{
+    filter: grayscale(100%);
+}
+.part_3_clients h1 span, .part_4_question h1 span, .part_5_contact h1 span{
     color: #E76F51;
 }
 .part_3_clients p{
@@ -45,11 +51,11 @@ body{
 }
 
 .clients img{
-    width: 150px;
+    width: 130px;
 }
 #clients_3 img{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border: 1px;
     border-radius: 45%;
 }
@@ -76,3 +82,17 @@ body{
     color: #7E848C;
     font-size: 14px;
 }
+
+.part_5_contact input{
+    padding: 5px;
+    /* margin: 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-right: solid purple 5px;
+    border-left: solid purple 5px;
+    border-radius: 10px;
+    color: purple;
+
+}
+

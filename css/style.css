@@ -1,6 +1,49 @@
+/* poppins font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
 body{
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
+.header_only{
+    background: #264653;
+}
+.part_1_section p{
+    color: #E0E0E0;
+    font-size: 12px;
+    
+}
+.part_1_section h1{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.part_1_btn{
+    background: #E76F51;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 20px;
+    border:0;
+    border-radius: 5px;
+}
+.part_2_Fetured h1, .part_3_clients h1{
+    color: #000000;
+    font-weight: 600;
+    font-size: 35px;
+}
+.part_2_Fetured p{
+    color: #E76F51;
+    font-size: 12px;
+    font-weight: 600;
+}
+.part_3_clients h1 span{
+    color: #E76F51;
+}
+.part_3_clients p{
+    color:#6C6C6C;
+    font-size: 14px;
+}
+
 .clients img{
     width: 150px;
 }
@@ -9,4 +52,17 @@ body{
     height: 150px;
     border: 1px;
     border-radius: 45%;
+}
+.part_3_clients i{
+    color:#E77C40;
+}
+.part_3_clients .title_name{
+    color: #23A6F0;
+    font-size: 12px;
+    font-weight: 500;
+}
+.part_3_clients .footer_title{
+    color: #252B42;
+    font-weight: 600;
+    font-size: 14px;
 }

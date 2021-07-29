@@ -18,7 +18,7 @@ body{
     color: #FFFFFF;
     font-weight: 600;
 }
-.part_1_btn{
+.part_1_btn, .part_6_btn{
     background: #E76F51;
     color: #FFFFFF;
     font-size: 16px;
@@ -26,10 +26,14 @@ body{
     border:0;
     border-radius: 5px;
 }
+.part_6_btn:hover{
+    transform: scale(1.25);
+    transition: transform 1s ease-in;
+}
 .part_1_section img{
     width: 400px;
 }
-.part_2_Fetured h1, .part_3_clients h1, .part_4_question h1{
+.part_2_Fetured h1, .part_3_clients h1, .part_4_question h1, .part_5_contact h1, .part_6_services h1{
     color: #000000;
     font-weight: 600;
     font-size: 35px;
@@ -45,7 +49,7 @@ body{
 .part_2_Fetured #feature_img_three{
     filter: grayscale(100%);
 }
-.part_3_clients h1 span, .part_4_question h1 span, .part_5_contact h1 span{
+.part_3_clients h1 span, .part_4_question h1 span, .part_5_contact h1 span, .part_6_services h1 span{
     color: #E76F51;
 }
 .part_3_clients p{
@@ -96,6 +100,26 @@ body{
     border-left: solid purple 5px;
     border-radius: 10px;
     color: purple;
+
+}
+
+.part_6_services #bg_added{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/bike-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    border:0;
+    border-radius: 10px;
+    
+}
+.part_6_services p{
+    color:antiquewhite;
+    font-size: 12px;
+}
+.part_6_services .part_6_title{
+    color: #FFFFFF;
+    font-weight: 700;
 
 }
 
